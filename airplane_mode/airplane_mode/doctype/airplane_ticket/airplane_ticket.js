@@ -5,7 +5,7 @@ frappe.ui.form.on("Airplane Ticket", {
     refresh(frm) {
         // Add the custom button
         frm.add_custom_button(__('Assign Seat'), function() {
-            // Show a dialog to input the seat number
+            // Show a dialog to add the seat number
             let seat_dialog = new frappe.ui.Dialog({
                 title: 'Enter Seat Number',
                 fields: [
@@ -18,10 +18,9 @@ frappe.ui.form.on("Airplane Ticket", {
                 ],
                 primary_action_label: 'Assign Seat',
                 primary_action(values) {
-                    // Set the seat number to the seat field in the form
                     frm.set_value('seat', values.seat_number);
                     seat_dialog.hide();
-                    frm.save();  // Optionally save the form automatically after setting the seat
+                    frm.save();  
                 }
             });
             // Show the dialog
