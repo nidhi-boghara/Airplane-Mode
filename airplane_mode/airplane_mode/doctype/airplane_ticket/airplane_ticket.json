@@ -27,7 +27,8 @@
   "departure_date",
   "departure_time",
   "column_break_rohs",
-  "duration_of_flight"
+  "duration_of_flight",
+  "gate_number"
  ],
  "fields": [
   {
@@ -163,13 +164,19 @@
    "fieldname": "flight_details_section",
    "fieldtype": "Section Break",
    "label": "Flight Details"
+  },
+  {
+   "fetch_from": "flight.gate_number",
+   "fieldname": "gate_number",
+   "fieldtype": "Data",
+   "label": "Gate Number"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2025-08-11 12:27:56.960614",
+ "modified": "2025-08-11 15:52:55.405213",
  "modified_by": "Administrator",
  "module": "Airplane Mode",
  "name": "Airplane Ticket",

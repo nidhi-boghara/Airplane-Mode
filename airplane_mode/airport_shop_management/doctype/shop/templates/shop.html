@@ -1,0 +1,38 @@
+{% extends "templates/web.html" %}
+
+{% block page_content %}
+<div class="container mt-4">
+    <div class="card shadow-lg border-0 rounded-4">
+        <div class="card-body">
+            <h1 class="card-title text-primary fw-bold mb-3">{{ title }}</h1>
+            <h4 class="mb-4 text-muted">Shop Details</h4>
+
+            <p>
+                <h5><b>{{ doc.status }}</b></h5>
+            </p>
+
+            <ul class="list-group list-group-flush mb-4">
+                <li class="list-group-item">
+                    <b>Airport:</b> {{ doc.airport or '' }}
+                </li>
+                <li class="list-group-item">
+                    <b>Area:</b> {{ doc.area or 0 }} sq ft
+                </li>
+                <li class="list-group-item">
+                    <b>Shop Type:</b> {{ doc.shop_type or '' }}
+                </li>
+                <li class="list-group-item">
+                    <b>Monthly Rent:</b> ₹ {{ doc.default_rent or '' }}
+                </li>
+            </ul>
+            {% if doc.shop_image %}
+                <img src="{{ doc.shop_image or ''}}" alt="Shop Image" style="height: 30%; width: 30%; object-fit: cover;">
+                <br><br>
+            {% endif %}
+
+            <!-- Optional Action Button -->
+            <a href="/inquiry-about-shops/new?Lead={{ title }}" class="btn btn-primary">Create Shop Leads</a>
+        </div>
+    </div>
+</div>
+{% endblock %}

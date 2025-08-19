@@ -8,10 +8,9 @@ def execute(filters=None):
 	data = get_data()
 	chart = get_chart_data(data)
 	total_revenue = sum(row[1] for row in data)
-	data.append(["Total Revenue", total_revenue])
 
 	summary = [
-		{'label': 'Total Revenue', 'value': frappe.format_value(total_revenue, 'Currency')}
+		{'label': 'Total Revenue', 'value':total_revenue}
 	]
 
 	return columns, data, None, chart, summary
