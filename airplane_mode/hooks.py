@@ -137,13 +137,11 @@ app_license = "mit"
 # ---------------
 # Hook on document methods and events
 
-# doc_events = {
-# 	"*": {
-# 		"on_update": "method",
-# 		"on_cancel": "method",
-# 		"on_trash": "method"
-# 	}
-# }
+doc_events = {
+	"Airplane Flight": {
+		"on_update": "airplane_mode.airplane_mode.doctype.airplane_flight.airplane_flight.update_gate_number",
+	}
+}
 
 # Scheduled Tasks
 # ---------------

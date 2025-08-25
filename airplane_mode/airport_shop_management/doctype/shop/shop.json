@@ -71,6 +71,7 @@
    "reqd": 1
   },
   {
+   "description": "In sqft.",
    "fieldname": "area",
    "fieldtype": "Float",
    "label": "Area"
@@ -147,7 +148,7 @@
  "index_web_pages_for_search": 1,
  "is_published_field": "published",
  "links": [],
- "modified": "2025-08-13 18:21:05.149882",
+ "modified": "2025-08-19 16:57:34.021694",
  "modified_by": "Administrator",
  "module": "Airport Shop Management",
  "name": "Shop",

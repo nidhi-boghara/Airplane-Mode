@@ -1,0 +1,86 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"RJ3VTlIu6E\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Airplane Mode</span>\",\"col\":12}},{\"id\":\"EZ3Cpe_bHO\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"Eautx3dM4a\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"All Passengers\",\"col\":3}},{\"id\":\"EH1JeVM5GR\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Airlines\",\"col\":3}},{\"id\":\"VDzA3oxZu6\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"All Airplanes\",\"col\":3}},{\"id\":\"39rkNy6nof\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"VjiUg4dYDK\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Airplane Shop Management</b></span>\",\"col\":12}},{\"id\":\"RKhJ9oBDK3\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"qfwwHNSbXG\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Shop\",\"col\":3}},{\"id\":\"J6W48M6THJ\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Tenant\",\"col\":3}},{\"id\":\"QVGKzB3Rif\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Lease Contract\",\"col\":3}},{\"id\":\"mTj87Fy8Ra\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Rent Payment\",\"col\":3}}]",
+ "creation": "2025-08-06 15:08:42.100197",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "external-link",
+ "idx": 0,
+ "indicator_color": "green",
+ "is_hidden": 0,
+ "label": "Airplane Mode",
+ "links": [],
+ "modified": "2025-08-19 17:30:34.255492",
+ "modified_by": "Administrator",
+ "module": "Airplane Mode",
+ "name": "Airplane Mode",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 1.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Airlines",
+   "link_to": "Airline",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Lease Contract",
+   "link_to": "Lease Contract",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "All Passengers",
+   "link_to": "Flight Passenger",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Rent Payment",
+   "link_to": "Rent Payment",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "All Airplanes",
+   "link_to": "Airplane",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Tenant",
+   "link_to": "Tenant",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Green",
+   "doc_view": "List",
+   "label": "Shop",
+   "link_to": "Shop",
+   "stats_filter": "[]",
+   "type": "DocType"
+  }
+ ],
+ "title": "Airplane Mode"
+}
